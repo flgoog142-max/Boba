@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Vivo Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #0a4c9a; /* Vivo blue */
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+    }
+    main {
+      padding: 20px;
+      text-align: center;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    footer {
+      background-color: #0a4c9a;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Vivo Website</h1>
+  </header>
+  <main>
+    <h2>Featured Vivo Phone</h2>
+    <img src="https://fdn2.gsmarena.com/vv/pics/vivo/vivo-x90-pro-1.jpg" alt="Vivo Phone">
+  </main>
+  <footer>
+    <p>&copy; 2025 My Vivo Website</p>
+  </footer>
+</body>
+</html>
